@@ -1,0 +1,16 @@
+.header {
+  height: 55px;
+  width: 100%;
+  background-color: #0C511F;
+  border-bottom: 1.7px solid #FFFFFF;
+}
+.header__box2 {
+  position: absolute;
+  height: 50px;
+  width: 55px;
+  left: 50%;
+  top: 30px;
+  background-color: green;
+}
+
+/*# sourceMappingURL=style.css.map */
