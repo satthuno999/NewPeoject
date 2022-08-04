@@ -4,6 +4,13 @@
   background-color: #0C511F;
   border-bottom: 1.7px solid #FFFFFF;
 }
+.header__box1 {
+  margin-left: 20px;
+  height: 33.5px;
+  width: 33.5px;
+  border: 2.5px solid #333;
+  border-radius: 100%;
+}
 .header__box2 {
   position: absolute;
   height: 30px;

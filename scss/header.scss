@@ -3,12 +3,61 @@
     width: 100%;
     background-color: #0C511F;
     border-bottom: 1.7px solid #FFFFFF;
-
-    &__box2{
+    &__call{
+        padding: auto;
+        position: absolute;
+        margin-left: 20px;
+        height: 33px;
+        width: 33px;
+        border: 2.7px solid #ffffff;
+        border-radius: 100%;
+        overflow: hidden;
+    }
+    &__call img{
+        position: absolute;
+        width: 22px;
+        margin: 0 
+    }
+    &__sdt{
+        position: absolute;
+        margin-left: 59px;
+        color: #ffffff;
+        overflow: hidden;
+    }
+    &__gmail{
+        padding: auto;
+        position: absolute;
+        overflow: hidden;
+        margin-left: 180px;
+        border: 2.7px solid #ffffff;
+        border-radius: 100%;
+        width: 33px;
+        height: 33px;
+    }
+    &__email{
+        position: absolute;
+        margin-left: 216px;
+        color: #ffffff;
+        overflow: hidden;
+    }
+    &__email img{
+        position: absolute;
+        width: 25px;
+        margin: 0;
+    }
+    &__box{
         position: absolute;
         height: 30px;
         width: 45px;
         left: 50%;
         top: 30px;
+    }
+    &__content{
+        position: absolute;
+        margin: auto;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        color: #3333;
     }
 }
