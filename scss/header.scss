@@ -3,6 +3,8 @@
     width: 100%;
     background-color: #0C511F;
     border-bottom: 1.7px solid #FFFFFF;
+    padding: 10px;
+
 
     &__button-mb {
         display: none;
@@ -83,9 +85,6 @@
 
         &-contact {
             display: flex;
-
-            
-
             .item {
                 a {
                     font-family: 'Averta Std CY';
@@ -96,7 +95,8 @@
                     /* identical to box height */
                     color: #FFFFFF;
                     text-decoration: none;
-
+                    letter-spacing: 1px;
+                    margin: 26px;
                     @media all and (max-width: 1399.99px) {
                         font-size: 17px;
                     }
@@ -112,11 +112,20 @@
             position: absolute;
             height: 30px;
             width: 45px;
-            left: calc(50% - 39.5px);
+            left: calc(50%);
+            transform: translate(-50%, -50%);
+
+            }
+            img{
+                margin: 25px;
+                width: 100%;
+            }
+
         }
 
         &-navigation {
-            display: flex;
+            display:flex;
+            word-spacing: 2.6px;
 
             @media all and (max-width: 991.99px) {
                 display: none;
@@ -132,6 +141,8 @@
                     /* identical to box height */
                     color: #FFFFFF;
                     text-decoration: none;
+                    text-transform: uppercase;
+                    margin: 14px;
                 }
             }
         }
@@ -141,45 +152,40 @@
 
     // &__call {
     //     padding: auto;
-    //     position: absolute;
-    //     height: 33px;
-    //     width: 33px;
+    //  position: absolute;
+    //    height: 33px;
+    // width: 33px;
     //     border: 2.7px solid #ffffff;
     //     border-radius: 100%;
     //     overflow: hidden;
     // }
-
     // &__call img {
     //     position: absolute;
     //     width: 22px;
     //     margin: 0
     // }
-
     // &__sdt {
     //     position: absolute;
     //     color: #ffffff;
     //     overflow: hidden;
-    // }
-
+    //}
     // &__gmail {
     //     padding: auto;
     //     position: absolute;
-    //     overflow: hidden;
-    //     border: 2.7px solid #ffffff;
-    //     border-radius: 100%;
-    //     width: 33px;
+    //   overflow: hidden;
+    //    border: 2.7px solid #ffffff;
+    //    border-radius: 100%;
+    //   width: 33px;
     //     height: 33px;
     // }
-
     // &__email {
     //     position: absolute;
     //     color: #ffffff;
     //     overflow: hidden;
     // }
 
-    // &__email img {
+    //&__email img {
     //     position: absolute;
     //     width: 25px;
-    //     margin: 0;
+    //    margin: 0;
     // }
-}

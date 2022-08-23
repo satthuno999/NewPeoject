@@ -3,6 +3,7 @@
   width: 100%;
   background-color: #0C511F;
   border-bottom: 1.7px solid #FFFFFF;
+  padding: 10px;
 }
 .header__button-mb {
   display: none;
@@ -80,6 +81,8 @@
   /* identical to box height */
   color: #FFFFFF;
   text-decoration: none;
+  letter-spacing: 1px;
+  margin: 26px;
 }
 @media all and (max-width: 1399.99px) {
   .header__menu-contact .item a {
@@ -88,24 +91,30 @@
 }
 @media all and (max-width: 1199.99px) {
   .header__menu-contact .item a {
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 .header__menu-box-logo {
   position: absolute;
   height: 30px;
   width: 45px;
-  left: calc(50% - 39.5px);
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.header__menu-navigation {
+.header__menu img {
+  margin: 25px;
+  width: 100%;
+}
+.header-navigation {
   display: flex;
+  word-spacing: 2.6px;
 }
 @media all and (max-width: 991.99px) {
-  .header__menu-navigation {
+  .header-navigation {
     display: none;
   }
 }
-.header__menu-navigation .item a {
+.header-navigation .item a {
   font-family: "Averta Std CY";
   font-style: normal;
   font-weight: 700;
@@ -114,6 +123,8 @@
   /* identical to box height */
   color: #FFFFFF;
   text-decoration: none;
+  text-transform: uppercase;
+  margin: 14px;
 }
 
 .home__banner {
