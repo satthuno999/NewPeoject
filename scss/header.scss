@@ -3,7 +3,7 @@
     width: 100%;
     background-color: #0C511F;
     border-bottom: 1.7px solid #FFFFFF;
-    padding: 10px;
+    padding: 14px;
 
 
     &__button-mb {
@@ -114,12 +114,23 @@
             width: 45px;
             left: calc(50%);
             transform: translate(-50%, -50%);
-
-            }
+            .namecompany{
+                display: flex;
+                font-size: 18.5px;
+                font-weight: 700;
+                text-align: center;
+                font-style: normal;
+                position: absolute;
+                color: #ffffff;
+             }
             img{
-                margin: 25px;
-                width: 100%;
+                max-width: 100%;
+                max-height: 300px;
+                display: block;
+                width: auto;
+                height: auto;
             }
+
 
         }
 
@@ -147,45 +158,7 @@
             }
         }
     }
+}
 
 
-
-    // &__call {
-    //     padding: auto;
-    //  position: absolute;
-    //    height: 33px;
-    // width: 33px;
-    //     border: 2.7px solid #ffffff;
-    //     border-radius: 100%;
-    //     overflow: hidden;
-    // }
-    // &__call img {
-    //     position: absolute;
-    //     width: 22px;
-    //     margin: 0
-    // }
-    // &__sdt {
-    //     position: absolute;
-    //     color: #ffffff;
-    //     overflow: hidden;
-    //}
-    // &__gmail {
-    //     padding: auto;
-    //     position: absolute;
-    //   overflow: hidden;
-    //    border: 2.7px solid #ffffff;
-    //    border-radius: 100%;
-    //   width: 33px;
-    //     height: 33px;
-    // }
-    // &__email {
-    //     position: absolute;
-    //     color: #ffffff;
-    //     overflow: hidden;
-    // }
-
-    //&__email img {
-    //     position: absolute;
-    //     width: 25px;
-    //    margin: 0;
-    // }
+   
